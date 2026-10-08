@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="description" content="Личное письмо для Натальи от Can.">
+  <meta name="theme-color" content="#11080b">
+  <meta property="og:title" content="Наталья, прости меня">
+  <meta property="og:description" content="Личное письмо от Can.">
+  <title>Наталья, прости меня</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0%200%2024%2024'%3E%3Cpath fill='%23e2556f' d='M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500;1,600&family=Manrope:wght@400;500;600&family=Marck+Script&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script>document.documentElement.classList.add("js");</script>
+</head>
+<body>
+  <svg class="sprite" aria-hidden="true" focusable="false">
+    <symbol id="heart" viewBox="0 0 24 24">
+      <path fill="currentColor" d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"></path>
+    </symbol>
+  </svg>
+
+  <div class="glow glow-a" aria-hidden="true"></div>
+  <div class="glow glow-b" aria-hidden="true"></div>
+
+  <div class="hearts" aria-hidden="true">
+    <svg class="float-heart" style="--x:8%;--s:18px;--d:17s;--delay:-4s" viewBox="0 0 24 24"><use href="#heart"></use></svg>
+    <svg class="float-heart" style="--x:18%;--s:26px;--d:22s;--delay:-11s" viewBox="0 0 24 24"><use href="#heart"></use></svg>
+    <svg class="float-heart faint" style="--x:42%;--s:16px;--d:20s;--delay:-7s" viewBox="0 0 24 24"><use href="#heart"></use></svg>
+    <svg class="float-heart" style="--x:70%;--s:22px;--d:19s;--delay:-2s" viewBox="0 0 24 24"><use href="#heart"></use></svg>
+    <svg class="float-heart" style="--x:84%;--s:28px;--d:24s;--delay:-14s" viewBox="0 0 24 24"><use href="#heart"></use></svg>
+    <svg class="float-heart faint" style="--x:93%;--s:18px;--d:16s;--delay:-9s" viewBox="0 0 24 24"><use href="#heart"></use></svg>
+  </div>
+
+  <header class="hero">
+    <div class="hero-copy">
+      <h1>Наталья,<br>прости <span class="keep">меня <span class="beat">❤️</span></span></h1>
+      <p class="lead">Это письмо я сделал специально для тебя.</p>
+      <button type="button" class="heart-btn" id="open-heart" aria-expanded="false" aria-controls="story">
+        Открыть моё сердце ❤️
+      </button>
+    </div>
+  </header>
+
+  <main id="story" class="story" tabindex="-1">
+    <article class="letter wrap" aria-label="Письмо">
+      <p class="salute reveal">Наталья,</p>
+      <p class="reveal">я долго думал о том, что произошло, и понял, что должен сказать тебе это не просто сообщением, а от всего сердца.</p>
+      <p class="reveal">Вчера я был очень расстроен и позволил своим эмоциям говорить за меня. Я сказал плохие слова о Чите. Сейчас я понимаю, что этими словами мог задеть не только город, но и тебя.</p>
+      <p class="emphasis reveal">Мне искренне жаль.</p>
+      <p class="reveal">Я не хотел обидеть тебя, не хотел проявить неуважение к месту, которое является частью твоей жизни. Иногда человек говорит то, чего на самом деле не хочет сказать, когда ему больно и он переполнен эмоциями. Но это не оправдание.</p>
+      <p class="emphasis reveal">Я признаю свою ошибку.</p>
+      <p class="emphasis reveal">Наталья, пожалуйста, прости меня.</p>
+      <p class="reveal">Я не хочу спорить, оправдываться или доказывать, что был прав. Мне важнее твои чувства.</p>
+      <p class="reveal">Ты для меня очень дорогой человек. Я люблю тебя и хочу беречь наши отношения, а не разрушать их из-за одной минуты злости.</p>
+      <p class="reveal">Я хочу снова увидеть твою улыбку.</p>
+      <p class="reveal">И если ты позволишь мне, я хочу исправить свою ошибку не только словами, но и поступками.</p>
+      <p class="emphasis reveal">Прости меня, Наталья.</p>
+      <p class="sign reveal">Твой Can ❤️</p>
+    </article>
+
+    <div class="ornament reveal" aria-hidden="true">
+      <span></span>
+      <svg viewBox="0 0 24 24"><use href="#heart"></use></svg>
+      <span></span>
+    </div>
+
+    <section class="more wrap" aria-labelledby="more-title">
+      <h2 id="more-title" class="reveal">Я хочу сказать тебе ещё кое-что…</h2>
+      <div class="note reveal">
+        <p>Я готов сделать всё, что в моих силах, чтобы ты снова улыбалась рядом со мной.</p>
+        <p>После работы давай вместе сходим за покупками. Я хочу выбрать для тебя подарок своими руками и просто провести время рядом с тобой.</p>
+        <p class="emphasis">Мне не нужны дорогие вещи.<br>Мне нужна ты.</p>
+      </div>
+    </section>
+
+    <section class="reasons" aria-labelledby="reasons-title">
+      <div class="wrap-wide">
+        <h2 id="reasons-title" class="reveal">Почему я прошу прощения</h2>
+        <div class="cards">
+          <article class="card reveal">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><use href="#heart"></use></svg>
+            <p>Я был неправ</p>
+          </article>
+          <article class="card reveal">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><use href="#heart"></use></svg>
+            <p>Я позволил эмоциям взять верх</p>
+          </article>
+          <article class="card reveal">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><use href="#heart"></use></svg>
+            <p>Ты заслуживаешь уважения и любви</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <div class="ornament reveal" aria-hidden="true">
+      <span></span>
+      <svg viewBox="0 0 24 24"><use href="#heart"></use></svg>
+      <span></span>
+    </div>
+
+    <section class="finale" aria-label="В конце">
+      <div class="wrap">
+        <p class="reveal">Наталья, я не прошу тебя забыть всё за одну секунду.</p>
+        <p class="reveal">Я просто прошу дать мне возможность доказать поступками, что я действительно тебя люблю.</p>
+        <p class="emphasis reveal">Прости меня, пожалуйста.</p>
+        <p class="love reveal">Я люблю тебя.</p>
+        <p class="sign reveal">— Can ❤️</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Сделано с любовью. Для Натальи. От Can ❤️</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
